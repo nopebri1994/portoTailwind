@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <title>Protofolio | Nopebri</title>
+  </head>
+
+  <body class="bg-amber-50">
+    <header class="shadow mb-2 px-4 bg-gray-100">
+      <div class="relative mx-auto py-4 flex flex-col sm:flex-row max-w-screen-lg sm:items-center justify-between">
+        <a class="text-2x1 flex items-center font-black" href="/">
+          <span class="mr-2 text-blue-600 text-3xl1">
+            <img src="./src/svg/n.svg" width="25" alt="N" class="" />
+          </span>
+          <span>Nopebri</span>
+        </a>
+        <input class="peer hidden" type="checkbox" id="navbar-open" />
+        <label class="sm:hidden cursor-pointer absolute right-0 mt-1 text-xl" for="navbar-open">
+          <span class="sr-only">Toogle Navigation </span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
+            <path d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </label>
+        <nav aria-label="Header Navigation" class="peer-checked:block hidden sm:block mt-3 sm:py-0">
+          <ul class="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+            <li><a href="" class="text-gray-800 hover:text-blue-600">Home</a></li>
+            <!-- <li><a href="" class="text-gray-800 hover:text-blue-600">Tentang Saya</a></li> -->
+            <li><a href="" class="text-gray-800 hover:text-blue-600">Protofolio</a></li>
+            <!-- <li class="mt-2 sm:mt-0"><a href="" class="hover:bg-blue-600 hover:text-white border-2 px-4 py-2 rounded-xl border-blue-600 font-medium text-blue-600 sm:mt-0">Login</a></li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="max-w-screen-lg mx-auto px-4">
+      <div class="w-full bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="p-6">
+          <h2 class="text-2xl font-bold mb-2 text-center underline">Nopebri Ade Candra, S.Kom</h2>
+          <p class="text-gray-800 text-base mb-4 text-justify">
+            Saya adalah seorang penggemar IT yang sudah mempunyai pengalaman lebih dari 10 tahun. Saat ini saya masih aktif bekerja di PT Lion Metal Works Tbk site Purwakarta - Jawa Barat sebagai penanggung jawab di Departemen IT. Keahlian
+            saya meliputi pengelolaan server, jaringan, Perawatan perangkat IT (IT Support) dan aplikasi. Saya juga mempunyai pengalaman dalam pengembangan aplikasi berbasis web dan mobile.
+          </p>
+          <div class="container mx-auto px-4 text-center">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-4">
+              <span class="inline-block bg-blue-500 text-white rounded-full px-3 py-2 text-sm font-semibold">HTML</span>
+              <span class="inline-block bg-blue-500 text-white rounded-full px-3 py-2 text-sm font-semibold">CSS</span>
+              <span class="inline-block bg-blue-500 text-white rounded-full px-3 py-2 text-sm font-semibold">PHP</span>
+              <span class="inline-block bg-blue-500 text-white rounded-full px-3 py-2 text-sm font-semibold">Javascript</span>
+              <span class="inline-block bg-blue-500 text-white rounded-full px-3 py-2 text-sm font-semibold">Python</span>
+              <span class="inline-block bg-orange-500 text-white rounded-full px-3 py-2 text-sm font-semibold">Codeigniter</span>
+              <span class="inline-block bg-orange-500 text-white rounded-full px-3 py-2 text-sm font-semibold">Laravel</span>
+              <span class="inline-block bg-orange-500 text-white rounded-full px-3 py-2 text-sm font-semibold">Bootstrap</span>
+              <span class="inline-block bg-orange-500 text-white rounded-full px-3 py-2 text-sm font-semibold">Tailwind</span>
+              <span class="inline-block bg-orange-500 text-white rounded-full px-3 py-2 text-sm font-semibold">React</span>
+              <span class="inline-block bg-red-500 text-white rounded-full px-3 py-2 text-sm font-semibold">Mikrotik</span>
+              <span class="inline-block bg-red-500 text-white rounded-full px-3 py-2 text-sm font-semibold">Ubuntu</span>
+              <span class="inline-block bg-red-500 text-white rounded-full px-3 py-2 text-sm font-semibold">IT Support</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="mt-4 py-2">
+        Proyek yang sudah saya kerjakan adalah :
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mt-2 bg-white">
+          <img class="w-full" src="https://via.placeholder.com/150" alt="Card image" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Card Title</div>
+            <p class="text-gray-700 text-base">This is an example of a card using Tailwind CSS. You can customize it further to fit your needs.</p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#example</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#tailwind</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#card</span>
+          </div>
+        </div>
+      </div> -->
+    </main>
+    <footer></footer>
+  </body>
+</html>
